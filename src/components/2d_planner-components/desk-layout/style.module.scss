@@ -1,0 +1,27 @@
+.deskLayout {
+    &__title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrap {
+        position: relative;
+        width: 100%;
+
+        &_initialLay {
+            border: 1px solid #000;
+        }
+    
+        &_netLay {
+            position: absolute;
+            top: 0;
+            width: inherit;
+        }
+    }
+
+    &__submitBtn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}
